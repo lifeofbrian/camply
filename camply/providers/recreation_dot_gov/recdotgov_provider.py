@@ -119,7 +119,7 @@ class RecreationDotGovBase(BaseProvider, ABC):
 
     def find_recreation_areas(self, search_string: str = None, **kwargs) -> List[dict]:
         """
-        Find Matching Campsites Based on Search String
+        Find Matching Recreation Areas Based on Search String
 
         Parameters
         ----------
@@ -129,7 +129,7 @@ class RecreationDotGovBase(BaseProvider, ABC):
         Returns
         -------
         filtered_responses: List[dict]
-            Array of Matching Campsites
+            Array of Matching Recreation Areas
         """
         try:
             assert any(
